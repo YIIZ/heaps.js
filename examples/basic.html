@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+<canvas id="webgl"></canvas>
+<script src="../lib/heaps.js"></script>
+<script>
+class App extends hxd.App {
+  init() {
+    const tile = h2d.Tile.fromColor(0xFF0000, 100, 100)
+    const bmp = new h2d.Bitmap(tile, this.s2d)
+    bmp.x = this.s2d.width * 0.5
+    bmp.y = this.s2d.height * 0.5
+
+    this.bmp = bmp
+  }
+
+  update(dt) {
+    this.bmp.posChanged = true // TODO
+    this.bmp.rotation += 0.1
+  }
+}
+
+const app = new App()
+</script>
+</body>
+</html>

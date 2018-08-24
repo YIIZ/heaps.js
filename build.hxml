@@ -1,0 +1,4 @@
+-cp src
+-lib heaps:git:https://github.com/HeapsIO/heaps.git#1.3.0
+-main Main
+-js lib/heaps.js
