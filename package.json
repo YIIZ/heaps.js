@@ -1,0 +1,13 @@
+{
+  "name": "heaps.js",
+  "version": "1.3.0-alpha.1",
+  "description": "",
+  "main": "lib/heaps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eWl6/heaps.js.git"
+  }
+}
