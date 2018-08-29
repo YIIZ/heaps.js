@@ -1,5 +1,12 @@
 # Heaps.js
 
 
+## Build
+
+```
+haxelib install build.xml
+haxe build.xml
+```
+
 ## Demo
-- [Basic](https://ewl6.github.io/heaps.js/examples/basic.html)
+- [Basic](https://yiiz.github.io/heaps.js/examples/basic.html)
